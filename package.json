@@ -1,6 +1,6 @@
 {
   "name": "@creditkarma/graphql-loader",
-  "version": "0.2.1",
+  "version": "0.2.1.1",
   "description": "Build a GraphQL Schema by loading .graphql files based a glob pattern",
   "main": "./dist/index.js",
   "scripts": {
@@ -38,7 +38,7 @@
     "glob": "^7.0.5"
   },
   "peerDependencies": {
-    "graphql": "^0.6.1 || ^0.7.0 || ^0.8.0"
+    "graphql": "^0.8.0 || ^0.9.0 || ^0.10.0"
   },
   "typings": "dist/index.d.ts",
   "typescript": {
